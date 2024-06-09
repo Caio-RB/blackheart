@@ -76,7 +76,7 @@ body {
     position: absolute;
     display: block;
     width: 100%;
-    background-color: #333;
+    background-color:#9B1B1B;
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
@@ -93,5 +93,11 @@ body {
   .nav > #nav-check:checked ~ .nav-links {
     height: calc(100vh - 50px);
     overflow-y: auto;
+  }
+  .nav__logo{
+	 width:40vw;
+	 display:block;
+	 margin: 0 auto;
+	 padding: 3px 0 0 0;
   }
 }

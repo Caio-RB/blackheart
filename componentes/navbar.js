@@ -3,6 +3,7 @@ export default {
 	<div class="nav">
   <input type="checkbox" id="nav-check">
   <div class="nav-header">
+	<img src="../assets/imagens/nav.png" class="nav__logo">
   </div>
   <div class="nav-btn">
     <label for="nav-check">

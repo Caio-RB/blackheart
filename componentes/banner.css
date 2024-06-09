@@ -1,0 +1,16 @@
+#banner{
+	width:100vw;
+	height:50vh;
+	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../assets/imagens/banner.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;	
+	color:white;
+	overflow:hidden;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	font-weight:bold;
+	font-family: "DM Serif Text", serif;
+}
