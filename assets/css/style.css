@@ -3,6 +3,7 @@
 @import url("css/old_phones.css");
 @import url("../../componentes/navbar.css");
 @import url("../../componentes/banner.css");
+@import url("../../componentes/about.css");
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
 /* reset css */
 
@@ -12,6 +13,7 @@
 }
 body{
 	/*background-color:#16151D;*/
+	font-family: "DM Serif Text", serif;
 }
 ul{
 	list-style-type:none;

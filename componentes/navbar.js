@@ -15,7 +15,7 @@ export default {
   
   <div class="nav-links">
     <a href="#">Home</a>
-    <a href="#">Sobre</a>
+    <a href="#about">Sobre</a>
     <a href="#">Capitulos</a>
     <a href="#">Apoiar</a>
    <!--<a href="#">Link 5</a>-->
