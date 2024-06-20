@@ -1,8 +1,8 @@
 #about{
 	width:100vw;
-	/*height:50vh;*/
+	height:50vh;
 	border-color:darkgreen;
-	border-style:solid;
+	border-style:transparent;
 	border-width:2px;
 	color:#595857;
 	display:inline-block;
@@ -16,6 +16,7 @@
 	text-transform:uppercase;
 	margin:20px 0 10px 0;
 	font-weight:bold;
+	display:block;
 }
 .about__text{
 	font-size:1.1rem;

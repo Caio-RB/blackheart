@@ -1,9 +1,9 @@
 export default{
 	template:`
 	<section id="about" class="">
-		<div class="about__title">
+		<span class="about__title">
 			<p>Sobre</p>
-		</div>
+		</span>
 		<div class="about__text">
 		<p>
 		   Nathan era uma criança lemuriana de aproximadamente 7 anos de idade.

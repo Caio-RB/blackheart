@@ -1,0 +1,29 @@
+#chapters{
+	width:100vw;
+	height:60vh;
+	background-color:#363636;
+	display:inline-block;
+}
+.chapters__container{
+	width:90vw;
+	height:80%;
+	background-color:white;
+	display:block;
+	margin: 0 auto;
+	overflow:scroll;
+	border-radius:3%;
+}
+
+#chapters .about__title{
+	color:white;
+}
+
+.chapters__table{
+	width:100%;
+	border-collapse:collapse;
+}
+.table__rows{
+  border-bottom: 1px solid black;
+  text-align:center;
+  line-height:200%;
+}
