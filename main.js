@@ -1,8 +1,8 @@
 const app = Vue.createApp({});
-import navbar  from "./componentes/navbar.js";
-import banner from "./componentes/banner.js";
-import about from "./componentes/about.js";
-import chapters from "./componentes/chapters.js";
+import navbar  from "./src/componentes/navbar.js";
+import banner from "./src/componentes/banner.js";
+import about from "./src/componentes/about.js";
+import chapters from "./src/componentes/chapters.js";
 app.component("navbar", navbar);
 app.component("banner", banner);
 app.component("about", about);

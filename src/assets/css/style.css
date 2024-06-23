@@ -6,6 +6,7 @@
 @import url("../../componentes/about.css");
 @import url("../../componentes/chapters.css");
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url("https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css");
 /* reset css */
 
 *{

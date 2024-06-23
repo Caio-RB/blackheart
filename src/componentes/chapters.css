@@ -1,0 +1,60 @@
+#chapters{
+	width:100vw;
+	height:60vh;
+	background-color:#363636;
+	display:inline-block;
+}
+.chapters__container{
+	width:90vw;
+	height:80%;
+	background-color:white;
+	display:block;
+	margin: 0 auto;
+	overflow:scroll;
+	border-radius:3%;
+}
+
+#chapters .about__title{
+	color:white;
+}
+
+.chapters__table{
+	width:84%;
+	border-collapse:collapse;
+	margin:0 auto;
+/*	text-align:center;*/
+
+	
+}
+.table__rows{
+  border-bottom: 1px solid black;
+  text-align:center;
+  line-height:200%;
+}
+
+.chapters__search{
+  width:50%;
+  height:3vh;
+  /*background-color:grey;*/
+  display:block;
+  margin:0 auto;
+  overflow:hidden;
+}
+.search{
+	width:100%;
+	height:100%;
+	border-radius:1.625rem;
+	border:1px solid black;
+	text-transform:lowercase;
+	text-align:center;
+	display:block;
+}
+.search__button{
+	color:#fff;
+	border-radius:50%;
+	border:none;
+	background:#740ab4;
+	width:20px;
+	height:20px;
+
+}

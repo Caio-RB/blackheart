@@ -5,6 +5,13 @@ export default{
 				<p>Capitulos</p>	
 			</span>
 			<div class="chapters__container">
+				<!--<form class="chapters__search">
+					<input type="text" class="search" placeholder="pesquisar capitulo">
+			     		
+					<button class="search__button" id="search__main">
+			     			<i class='bx bx-search-alt-2'></i>
+					</button>
+				</form>-->
 				<table class="chapters__table">
 					<tr class="">
 						<th>Capitulo</th>
