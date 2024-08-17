@@ -1,0 +1,49 @@
+#support{
+	width:100vw;
+	height:50vh;
+}
+.support__options{
+	display:block;
+	margin: 0 auto;
+}
+.social__image{
+	display:block;
+	margin:0 auto;
+}
+
+.social__container{
+	width: 70vw;
+	height: 80%;
+	border: 2px solid #d367ee;
+	background-color: none;
+	box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.social__stamp{
+	background-color: none;
+	width: 5rem;
+	height:5rem;
+	border-radius: 50%;
+	display: block;
+	margin: 2rem auto;
+	overflow: hidden;
+}
+
+#support .about__title{
+	color:#595857;
+}
+
+.social__image{
+	width: 175%;
+	height: 175%;
+	display: block;
+	margin: -1.8rem -1.8rem;
+}
+
+.social__button{
+	display: block;
+	margin: 8rem auto;
+	width:3rem;
+}

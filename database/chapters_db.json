@@ -1,0 +1,37 @@
+[
+	{
+		"id": 1,
+		"titulo": "Reecontro",
+		"data": "10-08-2024",
+		"rota": "capitulo_01",
+		"arquivo": "../src/assets/capitulos/01-reecontro.pdf",
+		"audio": "#"
+	},
+	
+	{
+		"id": 2,
+		"titulo": "Criança do inferno",
+		"data": "10-08-2024",
+		"rota": "capitulo_02",
+		"arquivo": "../src/assets/capitulos/02-criança_do_inferno.pdf",
+		"audio": "#"
+	},
+	
+	{
+		"id": 3,
+		"titulo": "Vazio",
+		"data": "10-08-2024",
+		"rota": "capitulo_03",
+		"arquivo": "../src/assets/capitulos/03-reecontro.pdf",
+		"audio": "#"
+	},
+
+	{
+		"id": 4,
+		"titulo": "Submerso",
+		"data":"10-08-2024",
+		"rota": "capitulo_04",
+		"arquivo": "../src/assets/capitulos/04-submerso.pdf"
+	}
+]
+

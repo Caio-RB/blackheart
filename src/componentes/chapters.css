@@ -7,7 +7,7 @@
 .chapters__container{
 	width:90vw;
 	height:80%;
-	background-color:white;
+	background-color:#232323;
 	display:block;
 	margin: 0 auto;
 	overflow:scroll;
@@ -21,28 +21,21 @@
 .chapters__table{
 	width:84%;
 	border-collapse:collapse;
-	margin:0 auto;
-/*	text-align:center;*/
-
-	
+	margin:5vh auto;
+	color:white;	
 }
 .table__rows{
-  border-bottom: 1px solid black;
+  border: none;
   text-align:center;
   line-height:200%;
+  color:white;
+ /* background-color:rgba(86, 76, 81, 0.29);*/
+  background-color:#2C2C2C;
 }
 
-.chapters__search{
-  width:50%;
-  height:3vh;
-  /*background-color:grey;*/
-  display:block;
-  margin:0 auto;
-  overflow:hidden;
-}
 .search{
 	width:100%;
-	height:100%;
+	line-height:180%;
 	border-radius:1.625rem;
 	border:1px solid black;
 	text-transform:lowercase;
@@ -57,4 +50,9 @@
 	width:20px;
 	height:20px;
 
+}
+/*LINKS*/
+
+.chapters__table a {
+	color:white;
 }
