@@ -1,0 +1,133 @@
+/* ===== LEITOR (BEM) ===== */
+.leitor {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url('../assets/imagens/bg3.png');
+  background-size:cover;
+  font-family: "Roboto", sans-serif;
+  color: #111;
+}
+
+/* NAVBAR */
+.leitor__navbar {
+  background-color: #b40000;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.leitor__navbar-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* MAIN */
+.leitor__main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* CONTROLS */
+.leitor__controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+  flex-wrap: nowrap;
+  width: 100%;
+  max-width: 600px;
+  margin-top:10vh;
+}
+
+/* FOOTER CONTROLS */
+.leitor__controls--footer {
+  margin-top: 1rem;
+}
+
+/* BUTTON */
+.leitor__button {
+  background-color: #b40000;
+  border: none;
+  color: white;
+  font-size: 1.4rem;
+  padding: 0.6rem 0.9rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  flex-shrink: 0;
+}
+
+.leitor__button:hover {
+  background-color: #ff4444;
+}
+
+/* SELECT */
+.leitor__select {
+  flex: 1;
+  min-width: 0;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 2px solid #b40000;
+  background-color: white;
+  color: #2d0033;
+}
+
+/* PDF */
+.leitor__pdf {
+  width: 100%;
+  max-width: 800px;
+  height: 80vh;
+  border: 3px solid #b40000;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  background-color: #000;
+}
+
+/* FOOTER */
+.leitor__footer {
+  background-color: #b40000;
+  color: white;
+  text-align: center;
+  padding: 0.8rem;
+  font-size: 0.9rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .leitor__controls {
+    max-width: 95%;
+    gap: 0.5rem;
+  }
+
+  .leitor__button {
+    font-size: 1.2rem;
+    padding: 0.4rem 0.7rem;
+  }
+
+  .leitor__select {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+
+  .leitor__pdf {
+    height: 70vh;
+    max-width: 95%;
+  }
+
+  .leitor__navbar-title {
+    font-size: 1rem;
+  }
+
+  .leitor{
+	  background-image:url('../assets/imagens/bg3_mobile.png');
+  }
+}
+

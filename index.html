@@ -2,19 +2,19 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, inital-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>BlackHeart</title>
-		<link rel="stylesheet" href="assets/css/style.css">	
+		<link rel="stylesheet" href="./src/styles/core.css">	
 		<link rel="icon" type="image/x-icon" href="favicon.png">
+		<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 	</head>
 	<body>
 		<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-				
+		<script src="https://unpkg.com/vue-router@4"></script>
 		<div id="app">
 			<navbar></navbar>
-			<banner></banner>
-			<about></about>
-			<chapters></chapters>
+			<router-view></router-view>
+			<rodape></rodape>
 		</div>
 	
 		<script type="module" src="main.js"></script>
