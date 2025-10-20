@@ -1,10 +1,12 @@
 import home from "./src/pages/home.js";
 import leitor from "./src/pages/leitor.js";
-import navbar from "./src/componentes/navbar.js"
-import rodape from "./src/componentes/rodape.js"
+import navbar from "./src/componentes/navbar.js";
+import rodape from "./src/componentes/rodape.js";
+import personagem from "./src/pages/personagem.js";
 const routes = [
     { path: "/", component: home },
-    { path: "/leitor", component: leitor }
+    { path: "/leitor", component: leitor },
+    { path: "/criar", component: personagem }
 ];
 
 const router = VueRouter.createRouter({
